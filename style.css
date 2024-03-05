@@ -3,6 +3,12 @@ body {
     margin: 0;
     text-align: center;
     font-family:'Times New Roman', Times, serif;
+    width: 100%;
+}
+
+body, html {
+  width: 100%;
+  overflow-x: hidden;
 }
 
 h1 {
@@ -53,7 +59,6 @@ img {
     overflow: clip;
 }
 
-  
 .top-container {
     background-color: #E4F9F5;
     position: relative;
@@ -67,13 +72,7 @@ img {
 .bottom-container {
     background-color: #66bfbf;
     padding: 50px 0 20px;
-}
-
-.skill-row {
-  width: 50%;
-  margin: 100px auto 100px auto;
-  text-align: left;
-}
+} 
 
 .btn-contact {
   background: #11cdd4;
@@ -128,6 +127,7 @@ img {
     padding: 20px 0;
   }
 
+
 .cloud1 {
     position: absolute;
     right: 300px;
@@ -165,7 +165,7 @@ img {
 .parent {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr auto;
+    grid-template-rows: 1fr auto auto;
     width: 50%;
     margin: 100px auto 0 auto;
     text-align: left;
